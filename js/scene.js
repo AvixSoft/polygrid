@@ -271,7 +271,7 @@ if (BABYLON.Engine.isSupported()) {
         return new BABYLON.Sound("E1M1", "snds/E1M1.mp3", scene, null, {
             loop: true,
             autoplay: true,
-            volume: MUSIC_VOLUME
+            volume: 70
         });
     };
 
