@@ -398,8 +398,8 @@ if (BABYLON.Engine.isSupported()) {
         ground.checkCollisions = true;
         ground.material = new BABYLON.StandardMaterial("txtGround", scene);
         ground.material.diffuseTexture = new BABYLON.Texture("gfx/Textures/grass.png", scene);
-        ground.material.diffuseTexture.uScale = 20.0;
-        ground.material.diffuseTexture.vScale = 20.0;
+        ground.material.diffuseTexture.uScale = 10.0;
+        ground.material.diffuseTexture.vScale = 10.0;
 
         genCubes(scene);
         renderAnimatedMonsters(scene);
