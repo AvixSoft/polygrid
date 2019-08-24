@@ -277,7 +277,7 @@ if (BABYLON.Engine.isSupported()) {
 
     var genCubes = function (scene) {
         var cubeMaterial = new BABYLON.StandardMaterial("txtCube", scene);
-        cubeMaterial.diffuseTexture = new BABYLON.Texture("gfx/textures/bricks.jpg", scene);
+        cubeMaterial.diffuseTexture = new BABYLON.Texture("gfx/textures/bricks.png", scene);
 
         for (var i = 0; i < 20; i++) {
             var cube = new BABYLON.Mesh.CreateBox("cube", CUBE_SIZE, scene);
@@ -397,7 +397,7 @@ if (BABYLON.Engine.isSupported()) {
         ground.rotation.x = Math.PI / 2; // TODO: simplify this (CreateGround())
         ground.checkCollisions = true;
         ground.material = new BABYLON.StandardMaterial("txtGround", scene);
-        ground.material.diffuseTexture = new BABYLON.Texture("gfx/textures/grass.jpg", scene);
+        ground.material.diffuseTexture = new BABYLON.Texture("gfx/textures/grass.png", scene);
         ground.material.diffuseTexture.uScale = 20.0;
         ground.material.diffuseTexture.vScale = 20.0;
 
