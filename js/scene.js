@@ -397,7 +397,7 @@ if (BABYLON.Engine.isSupported()) {
         ground.rotation.x = Math.PI / 2; // TODO: simplify this (CreateGround())
         ground.checkCollisions = true;
         ground.material = new BABYLON.StandardMaterial("txtGround", scene);
-        ground.material.diffuseTexture = new BABYLON.Texture("gfx/Textures/floor.png", scene);
+        ground.material.diffuseTexture = new BABYLON.Texture("gfx/Textures/floor_stone.png", scene);
         ground.material.diffuseTexture.uScale = 2.0;
         ground.material.diffuseTexture.vScale = 2.0;
 
