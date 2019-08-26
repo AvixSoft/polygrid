@@ -392,7 +392,7 @@ if (BABYLON.Engine.isSupported()) {
 
         var light = new BABYLON.HemisphericLight('light', new BABYLON.Vector3(0, 1, 0), scene);
 
-        var ground = BABYLON.Mesh.CreatePlane('ground', 500, scene);
+        var ground = BABYLON.Mesh.CreatePlane('ground', 100, scene);
         ground.tag = "ground";
         ground.rotation.x = Math.PI / 2; // TODO: simplify this (CreateGround())
         ground.checkCollisions = true;
