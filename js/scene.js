@@ -32,7 +32,7 @@ if (BABYLON.Engine.isSupported()) {
     var BULLETS = []; // Array containing all the bullets
     var BULLET_SPEED = 1;
     var SHOTGUN_BULLET_SIZE = 3; // Should be lots of little pellets, but one big bullet does the trick
-    var MUSIC_VOLUME = 0.1;
+    var MUSIC_VOLUME = 0.5;
 
     // MONSTER CONSTANTS
     var IMP_MAX_HP = 10;
@@ -398,8 +398,8 @@ if (BABYLON.Engine.isSupported()) {
         ground.checkCollisions = true;
         ground.material = new BABYLON.StandardMaterial("txtGround", scene);
         ground.material.diffuseTexture = new BABYLON.Texture("gfx/Textures/grass.png", scene);
-        ground.material.diffuseTexture.uScale = 10.0;
-        ground.material.diffuseTexture.vScale = 10.0;
+        ground.material.diffuseTexture.uScale = 1.0;
+        ground.material.diffuseTexture.vScale = 1.0;
 
         genCubes(scene);
         renderAnimatedMonsters(scene);
