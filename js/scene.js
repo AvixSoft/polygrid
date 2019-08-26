@@ -277,7 +277,7 @@ if (BABYLON.Engine.isSupported()) {
 
     var genCubes = function (scene) {
         var cubeMaterial = new BABYLON.StandardMaterial("txtCube", scene);
-        cubeMaterial.diffuseTexture = new BABYLON.Texture("gfx/Textures/bricks.png", scene);
+        cubeMaterial.diffuseTexture = new BABYLON.Texture("gfx/Textures/wall_2.png", scene);
 
         for (var i = 0; i < 20; i++) {
             var cube = new BABYLON.Mesh.CreateBox("cube", CUBE_SIZE, scene);
