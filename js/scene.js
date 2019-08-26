@@ -1,5 +1,5 @@
 /**
- * Created by arc on 19/02/2016.
+ *   "First Script" created on 8/24/16, by Nikolas Karinja.
  */
 
 var CANVAS = document.getElementById("renderCanvas");
@@ -26,12 +26,12 @@ if (BABYLON.Engine.isSupported()) {
 
     // CONSTANTS
 
-    var CUBE_SIZE = 5.5;
+    var CUBE_SIZE = 3.5;
     var ENGINE = new BABYLON.Engine(CANVAS, false); // true = enable smoothing/antialiasing
     var SPRITES = []; // Array containing all the sprites
     var BULLETS = []; // Array containing all the bullets
     var BULLET_SPEED = 1;
-    var SHOTGUN_BULLET_SIZE = 3; // Should be lots of little pellets, but one big bullet does the trick
+    var SHOTGUN_BULLET_SIZE = 1; // Should be lots of little pellets, but one big bullet does the trick
     var MUSIC_VOLUME = 0.5;
 
     // MONSTER CONSTANTS
