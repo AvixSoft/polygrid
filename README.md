@@ -1,3 +1,4 @@
-#PolyGrid
-##Nikolas Karinja
-###Mr. Landgreen's Class
+-PolyGrid
+
+Nikolas Karinja
+(Mr. Landgreen's Class)
